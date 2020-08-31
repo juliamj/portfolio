@@ -1,3 +1,3 @@
 ### Portfolio
 
-[On GitHub-Pages] (https://juliamj.github.io/portfolio/)
+- [On GitHub-Pages](https://juliamj.github.io/portfolio/)
