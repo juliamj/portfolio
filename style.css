@@ -136,6 +136,8 @@ body {
 	font-size: 30px;
 	font-weight: lighter;
 	opacity: 0.8;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 #footer {
     background-image: url("./images/mountains.jpg");
@@ -191,7 +193,7 @@ body {
 
 	.welcome {
 		font-size: 1.3rem;
-		margin: 30px;;
+		margin: 30px;
 	}
 hr {
 	opacity: 0.5;
