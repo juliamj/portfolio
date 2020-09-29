@@ -1,8 +1,10 @@
+html,
 body {
 	font-family: 'Marcellus', serif;
     /* background-color: #fffcf4; */
 	color: #28588f;
 	margin: 0;
+	font-size: 16px;
 }
 .container {
 	max-width: 840px;
@@ -120,7 +122,9 @@ body {
 	margin: 30px 20px;	
   }
   #banner {
-    background-image: url("./images/mountains1.jpg");
+	background-image: url("./images/mountains11.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 	padding: 70px 0px;
 	text-align: center;
@@ -133,14 +137,17 @@ body {
 }
 #banner p {
 	color: white;
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: lighter;
 	opacity: 0.8;
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
 #footer {
-    background-image: url("./images/mountains1.jpg");
+	background-image: url("./images/mountains1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 	color: white;
 	font-size: 20px;
@@ -167,7 +174,9 @@ body {
 	margin: 5px;
   }
 
-  
+  .nobull {
+	list-style: none;
+  }
 
   p {
 	margin-top: 0;
@@ -204,3 +213,4 @@ hr {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
