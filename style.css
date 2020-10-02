@@ -89,6 +89,12 @@ body {
 	margin: 10px;
 	font-size: 1.8em;;
 }
+.livedemo {
+	color: #28588f;
+}
+.livedemo:hover {
+	color: #5584aa;
+}
 
 .social-icons .social-icon {
     display: inline-flex;
