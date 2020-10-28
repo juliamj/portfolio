@@ -9,6 +9,7 @@ body {
 .container {
 	max-width: 840px;
 	margin: 0 auto;
+	height: 50vh;
 }
 .center {
 	text-align: center;
@@ -30,8 +31,19 @@ body {
 .project-text {
 	text-align: center;
 	padding: 20px;
+	width: 100%;
 }
-
+.project-text p {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+@media (max-width: 800px) {
+	.project-text p {
+		width: 50%;
+		text-align: center;
+	}
+}
 .profile-picture{
 	border-radius: 50%;
 	width: 150px;
@@ -202,7 +214,7 @@ body {
   }
   .heading {
 	  letter-spacing: 5px;
-	  margin-top: 50px;
+	  margin-top: 80px;
 	  margin-bottom: 30px;
 	}
 
@@ -214,9 +226,5 @@ hr {
 	opacity: 0.5;
 	margin-bottom: 30px;
 }
-.project-text p {
-	padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
 
